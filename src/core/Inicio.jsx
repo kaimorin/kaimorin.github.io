@@ -1,6 +1,6 @@
-function inicio() {
+function Inicio() {
     return (
-        <h1>Bienvenido a mi sitio web</h1>
+        <h1 className="inicio">Bienvenido a mi sitio web</h1>
     )
 }
-export default inicio;
+export default Inicio;
