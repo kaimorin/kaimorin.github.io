@@ -6,27 +6,24 @@ import Cv from './core/Cv.jsx'
 import Portafolio from './core/Portafolio.jsx'
 import Contact from './core/Contact.jsx'
 import Repositorio from './core/Repositorio.jsx'
+import Division from './core/Division.jsx'
 
 function App() {
-
   return (
-      <>
-        <body>
+      <main className="app-contenedor">
         <header>
           <h1><Inicio /></h1>
-          <section><Navegacion /></section>
-          
-        </header> 
-         <Cv />
-          <Portafolio />
-          <Contact />
-          <Repositorio />
+          <section className="nav"><Navegacion /></section>
+        </header>
+        <Cv />
+        <Portafolio />
+        <Division />
+        <Contact />
+        <Division />
+        <Repositorio />
          
-          <Pie />
-        </body>
-      </>
-        
-        
+        <Pie />
+      </main>
   )
 }
 
