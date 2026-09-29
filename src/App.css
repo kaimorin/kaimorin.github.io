@@ -1,0 +1,155 @@
+
+/*de aqui en adelante es lo que agregue para el codigo*/
+body {
+  background: white;
+  margin: 0;
+  min-height: 100vh; 
+}
+.repositorio{
+  align-items: center;
+  justify-content: center;
+  gap:500;
+  padding:40px 20px;
+  display:flex;
+  flex-direction: column;
+
+}
+
+.titulo-contacto{
+  align-items: center;
+  display: block;
+}
+footer{
+    background-color:#333;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding:20px;
+}
+
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;   
+}
+.git{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;   
+}
+.portafolio{
+    padding: 40px 20px;
+}
+
+.contacto{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 500px;
+    padding: 20px 10px;
+}
+.btn-enviar{
+  border-radius: 2px;
+  color:rgb(249, 249, 249);
+  background-color: #333;
+  padding: 7px 9px;
+  margin: 13px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(75, 75, 75, 0.1);
+}
+.input-email{
+  padding: 8px;
+  margin: 13px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(75, 75, 75, 0.1);
+}
+
+
+.card-0{
+    .img-1,.img-2,.img-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    flex:1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    text-align: center;
+   display: block;
+
+}
+.portafolio,.contacto,.repositorio{
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+.inicio{
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv{
+  background-color:rgb(232, 231, 231);
+  padding: 20px 20px;
+}
+.cv-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+
+.cv-contenido {
+  display: flex;
+  align-items: flex-start; 
+  gap: 30px; 
+  text-align: center;
+}
+
+
+.cv-description {
+  flex: 1;
+  color:rgb(111, 101, 101);
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 30px 30px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+header h1 {
+  margin: 0; 
+}
+
+header section.nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  gap: 20px; 
+}
+
+/* Da formato a los enlaces */
+header section.nav a {
+  text-decoration: none;
+  color: #333; 
+  font-weight: 500;
+}
+.division {
+  border-top: 1px solid #cbcbcb;
+  margin: 3rem 0;
+}
