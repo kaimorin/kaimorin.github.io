@@ -498,3 +498,13 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+.form-error {
+  font-size: 13px;
+  color: #d64545;
+  margin-bottom: 12px;
+}
+
+:root[data-theme='dark'] .form-error {
+  color: #f08a8a;
+}

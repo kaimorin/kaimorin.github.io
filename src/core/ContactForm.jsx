@@ -1,8 +1,9 @@
-import React from "react"
 import { useForm, ValidationError } from "@formspree/react"
 
+const FORMSPREE_ID = "mgavdzgp"
+
 function ContactForm() {
-  const [state, handleSubmit] = useForm("tu-form-id")
+  const [state, handleSubmit] = useForm(FORMSPREE_ID)
 
   if (state.succeeded) {
     return <p className="success-msg">Mensaje enviado. Te responderé pronto.</p>
@@ -20,7 +21,7 @@ function ContactForm() {
           required
           placeholder="tu@correo.com"
         />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
+        <ValidationError className="form-error" prefix="Correo" field="email" errors={state.errors} />
       </div>
 
       <div className="form-field">
@@ -32,8 +33,10 @@ function ContactForm() {
           placeholder="Escribe tu mensaje…"
           rows="5"
         />
-        <ValidationError prefix="Message" field="message" errors={state.errors} />
+        <ValidationError className="form-error" prefix="Mensaje" field="message" errors={state.errors} />
       </div>
+
+      <ValidationError className="form-error" errors={state.errors} />
 
       <button className="btn-enviar" type="submit" disabled={state.submitting}>
         {state.submitting ? "Enviando…" : "Enviar mensaje"}
