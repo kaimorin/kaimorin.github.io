@@ -12,8 +12,7 @@ function Cv() {
             Estudiante de 2.° año de Ingeniería en Informática en Duoc UC.
             Enfocado en el desarrollo de soluciones de software eficientes y
             escalables, con base en programación orientada a objetos, bases de
-            datos relacionales y tecnologías Full Stack. Preparándome para la
-            certificación de Analista Programador.
+            datos relacionales y tecnologías Full Stack. 
           </p>
         </div>
       </div>
