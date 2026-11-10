@@ -1,10 +1,10 @@
-
 function Pie() {
-    const fecha = new Date();
-    return(
-        <footer className="pie">
-            <p>Todos los derechos reservados © {fecha.getFullYear()}</p>
-        </footer>
-    )
+  const year = new Date().getFullYear()
+  return (
+    <footer className="pie">
+      <p>© {year} Kai Morin</p>
+    </footer>
+  )
 }
-export default Pie;
+
+export default Pie

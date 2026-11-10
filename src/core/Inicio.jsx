@@ -1,6 +1,4 @@
 function Inicio() {
-    return (
-        <h1 className="inicio">Portafolio</h1>
-    )
+  return <span>Kai Morin</span>
 }
-export default Inicio;
+export default Inicio

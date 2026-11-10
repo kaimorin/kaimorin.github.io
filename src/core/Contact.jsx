@@ -1,12 +1,13 @@
-import ContactForm from "./ContactForm";
+import ContactForm from "./ContactForm"
+
 function Contact() {
-    return (
-        <section className="contacto" id="contacto">
-            <h1 className="titulo-contacto">Contacto</h1>
-            <p className="texto">¡No dudes en ponerte en contacto conmigo!</p>
-            <ContactForm/>
-        </section>
-    )
+  return (
+    <section className="section" id="contacto">
+      <p className="section-label">Contacto</p>
+      <p className="contact-intro">¿Tienes un proyecto en mente o quieres ponerte en contacto? Escríbeme.</p>
+      <ContactForm />
+    </section>
+  )
 }
 
-export default Contact;
+export default Contact
