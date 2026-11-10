@@ -1,4 +1,4 @@
 function Inicio() {
-  return <span>Kai Morin</span>
+  return <span>Kaimorin</span>
 }
 export default Inicio

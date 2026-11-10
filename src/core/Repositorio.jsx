@@ -1,7 +1,8 @@
 function Repositorio() {
   return (
     <section className="section" id="repositorio">
-      <p className="section-label">Repositorio</p>
+      <p className="section-label">GitHub</p>
+      <h2 className="section-title">Código y proyectos</h2>
       <p className="repo-desc">Mis proyectos y código en GitHub.</p>
       <a
         className="repo-link"

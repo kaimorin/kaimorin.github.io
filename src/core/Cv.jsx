@@ -3,11 +3,11 @@ import Photo from "./Photo"
 function Cv() {
   return (
     <section className="section" id="cv">
-      <p className="section-label">Perfil</p>
+      <p className="section-label">Sobre mí</p>
       <div className="cv-grid">
         <Photo />
         <div className="cv-text">
-          <h2>Kai Morin</h2>
+          <h2>Formación y enfoque</h2>
           <p>
             Estudiante de 2.° año de Ingeniería en Informática en Duoc UC.
             Enfocado en el desarrollo de soluciones de software eficientes y

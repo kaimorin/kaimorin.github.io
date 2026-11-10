@@ -1,6 +1,6 @@
 function Navegacion() {
   return (
-    <nav className="site-nav">
+    <nav className="site-nav" aria-label="Principal">
       <ul>
         <li><a href="#cv">Sobre mí</a></li>
         <li><a href="#portafolio">Habilidades</a></li>

@@ -9,13 +9,15 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} style={{ maxWidth: "400px" }}>
+    <form className="contact-form" onSubmit={handleSubmit}>
       <div className="form-field">
         <label htmlFor="email">Correo electrónico</label>
         <input
           id="email"
           type="email"
           name="email"
+          autoComplete="email"
+          required
           placeholder="tu@correo.com"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -26,6 +28,7 @@ function ContactForm() {
         <textarea
           id="message"
           name="message"
+          required
           placeholder="Escribe tu mensaje…"
           rows="5"
         />
